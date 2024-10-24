@@ -1,0 +1,1386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+main{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+main nav{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+    background: #250F62;
+    padding-top: 10px;
+    position: fixed;
+    z-index: 500;
+}
+main nav ul{
+    display: flex;
+}
+main nav ul li{
+    list-style: none;
+    margin: 20px;
+}
+main nav ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+}
+main nav .logo h1{
+    font-size: 35px;
+}
+main nav .get-it button{
+    padding: 15px 25px;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: #250F62;
+    color: #fff;
+}
+main nav .side-bar{
+    font-size: 30px;
+    display: none;
+}
+main .ipad-list{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 73px;
+    position: fixed;
+    top: -60%;
+    transition: 1.5s ease-in;
+}
+main .ipad-list ul{
+    background: white;
+    width: 74%;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+main .ipad-list ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+main .ipad-list ul li .active{
+    color: #250F62;
+}
+main .ipad-list ul li a{
+    text-decoration: none;
+    color: #000;
+}
+main header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #250F62;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+main header .container-img{
+    width: 40%;
+}
+main header .container-img .img-1{
+    width: 100%;
+    height: auto;
+}
+main header .container-img .img-1 img{
+    width: 85%;
+}
+main header .container-txt{
+    color: #fff;
+    width: 36%;
+    height: auto;
+    background: #250F62;
+    padding-left: 25px;
+}
+main header .container-txt h1{
+    line-height: 42px;
+}
+main header .container-txt p{
+    margin-top: 25px;
+    line-height: 20px;
+}
+main header .container-txt .header-btn{
+    margin-top: 30px;
+}
+main header .container-txt .header-btn button{
+    padding: 12px 28px;
+    font-weight: bold;
+    border-radius: 7px;
+    background: #250F62;
+    color: #fff;
+    border: 2px solid white;
+    outline: none;
+}
+main header .container-txt .header-btn button i{
+    margin-right: 5px;
+}
+main header .container-txt .header-btn .apple-btn{
+    background: white;
+    color: #250F62;
+    margin-right: 15px;
+}
+main .features{
+    width: 100%;
+    height: auto;
+    background: #FAF9F9;
+    padding-bottom: 100px;
+}
+main .features .subsec1{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+main .features .first-txt{
+    text-align: center;
+    padding-top: 100px;
+    font-weight: bold;
+}
+main .features .first-txt h5{
+    font-size: 15px;
+    color: #250F62;
+}
+main .features .first-txt h1{
+    padding-top: 10px;
+}
+main .features .first-txt p{
+    color: rgb(140, 139, 139);
+    font-size: 14px;
+    padding-top: 10px;
+}
+main .features .grid-container{
+    width: 75%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    margin-top: 60px;
+}
+main .features .grid-container .grid-item{
+    width: 100%;
+    height: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 7px;
+}
+main .features .grid-container .grid-item h3{
+    padding-top: 25px;
+}
+main .features .grid-container .grid-item p{
+    color: rgb(140, 139, 139);
+    font-size: 14px;
+    padding-top: 20px;
+}
+main .features .grid-container .grid-item .icon{
+    width: 50px;
+    height: 55px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#250F62;  
+    box-shadow: 1px 3px 1px rgb(196, 190, 190);
+}
+main .features .grid-container div .icon i{
+    color: white;
+}
+main .section1{
+    background: white;
+    width: 100%;
+    height: auto;
+}
+main .section1 .subsec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 130px;
+}
+main .section1 .subsec1 .container-txt{
+    width: 42%;
+}
+main .section1 .subsec1 .container-txt p{
+    padding-top: 20px;
+    color: rgb(140, 139, 139);
+    line-height: 25px;
+}
+main .section1 .subsec1 .container-txt button{
+    padding: 15px 35px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    background: #250F62;
+    color: white;
+}
+main .section1 .subsec1 .container-txt .icon{
+    width: 60px;
+    height: 60px;
+    background: #250F62;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+main .section1 .subsec1 .container-txt h1{
+    padding-top: 30px;
+}
+main .section1 .subsec1 .container-txt .icon i{
+    font-size: 25px;
+}
+main .section1 .subsec1 .container-img{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+main .section1 .subsec1 .container-img .img-holder{
+    width: 85%;
+}
+main .section1 .subsec1 .container-img .img-holder img{
+    width: 100%;
+}
+main .section1 .subsec2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 130px;
+    padding-bottom: 100px;
+}
+main .section1 .subsec2 .container-img{
+    width: 50%;
+    height: auto;
+}
+main .section1 .subsec2 .container-img .img-holder{
+    width: 85%;
+}
+main .section1 .subsec2 .container-img .img-holder img{
+    width: 100%;
+}
+main .section1 .subsec2 .container-txt{
+    width: 42%;
+}
+main .section1 .subsec2 .container-txt p{
+    padding-top: 20px;
+    color: rgb(140, 139, 139);
+    line-height: 25px;
+}
+main .section1 .subsec2 .container-txt button{
+    padding: 15px 35px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    background: #250F62;
+    color: white;
+}
+main .section1 .subsec2 .container-txt .icon{
+    width: 60px;
+    height: 60px;
+    background: #250F62;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+main .section1 .subsec2 .container-txt h1{
+    padding-top: 30px;
+}
+main .section1 .subsec2 .container-txt .icon i{
+    font-size: 25px;
+}
+main .section1 .subsec3{
+    width: 100%;
+    height: auto;
+    background: #250F62;
+    color: white;
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+main .section1 .subsec3 h1{
+    font-size: 36px;
+}
+main .section1 .subsec3 p{
+    margin-top: 20px;
+}
+main .section1 .subsec3 .rate{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 200px;
+    align-items: center;
+    margin-top: 60px;
+}
+main .section1 .subsec3 .rate div{
+    font-size: 38px;
+    font-weight: bold;
+}
+main .section1 .subsec3 .rate p{
+    font-size: 13px;
+}
+main .pricing{
+    background: #FAF9F9;
+    padding-top: 120px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+main .pricing h4{
+    color: #250F62;
+}
+main .pricing h1{
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 10px;
+}
+main .pricing p{
+    color: rgb(140, 139, 139);
+    margin-top: 20px;
+}
+main .pricing .flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    padding-bottom: 80px;
+}
+main .pricing .flex-container .flex-item{
+    width: 20%;
+    height: auto;
+    padding: 25px;
+    text-align: left;
+    margin: 15px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 1px 5px  rgb(206, 198, 198);
+}
+main .pricing .flex-container .flex-item h4{
+    color: #061727;
+    font-weight: bold;
+}
+main .pricing .flex-container .flex-item .amount{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 25px;
+    color: #061727;
+}
+main .pricing .flex-container .flex-item span{
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(140, 139, 139);
+}
+main .pricing .flex-container .flex-item ol{
+    width: 100%;
+   
+}
+main .pricing .flex-container .flex-item ol li{
+    list-style: none;
+    margin-top: 25px;
+    color: rgb(140, 139, 139);
+}
+main .pricing .flex-container .flex-item ol li i{
+    margin-right: 10px;
+    color:#250F62 ;
+}
+main .pricing .flex-container .flex-item button{
+    padding: 10px 20px;
+    width: 100%;
+    margin-top: 25px;
+    background:#061727;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+main .pricing .flex-container .flex-item hr{
+    width: 100%;
+    margin-bottom: 25px;
+}
+main .team{
+    width: 100%;
+    height: auto;
+    background: white;
+    text-align: center;
+    padding-top: 100px;
+}
+main .team h4{
+    color: #250F62;
+}
+main .team h1{
+    font-size: 38px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+main .team p{
+    margin-top: 20px;
+    color: rgb(140, 139, 139);
+}
+main .team .flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+main .team .flex-container .flex-item{
+    width: 28%;
+    height: auto;
+    margin: 15px;
+    border-radius: 8px;
+    padding-bottom: 30px;
+    box-shadow: 2px 2px 2px 2px  rgb(219, 217, 217);
+}
+main .team .flex-container .flex-item img{
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+main .team .flex-container .flex-item img:hover{
+    transform: scale(0.9);
+    transition: 1s ease;
+}
+main .team .flex-container .flex-item div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+main .team .flex-container .flex-item div span i{
+    margin-right: 10px;
+    color: rgb(140, 139, 139);
+}
+main .team .flex-container .flex-item p{
+    margin-top: 5px;
+    text-align: left;
+    padding-left: 30px;
+    color: #250F62;
+}
+main .section2{
+     width: 100%;
+     height: auto;
+     background: #FAF9F9;
+     text-align: center;
+     padding-top: 90px;
+     padding-bottom: 60px;
+}
+main .section2 .section2-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .section2 .section2-logo i{
+    margin-right: 5px;
+    font-size: 30px;
+    color: #250F62;
+}
+main .section2 p{
+    margin-top: 35px;
+    font-weight: bold;
+    color:#061727;
+}
+main .section2 .image{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+main .section2 .image img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+main .section2 h5{
+    color: rgb(48, 70, 111);
+}
+main .section3{
+    width: 100%;
+    height: auto;
+    background: #250F62;
+    color: white;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+main .section3 h1{
+    font-size: 35px;
+}
+main .section3 p{
+    margin-top: 30px;
+}
+main .section3 .section3-btn{
+    margin-top: 40px;
+}
+main .section3 .section3-btn button{
+    padding: 12px 28px;
+    font-weight: bold;
+    border-radius: 7px;
+    background: #250F62;
+    color: #fff;
+    border: 2px solid white;
+    outline: none;
+}
+main .section3 .section3-btn button i{
+    margin-right: 5px;
+}
+main .section3 .section3-btn .apple-btn{
+    background: white;
+    color: #250F62;
+    margin-right: 10px;
+}
+main .faq{
+    width: 100%;
+    height: auto;
+    padding-top: 90px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+main .faq h3{
+    color: #250F62;
+}
+main .faq h1{
+    font-size: 35px;
+    margin-top: 10px;
+}
+main .faq p{
+    margin-top: 20px;
+    color:#061727;
+    font-weight: bold;
+}
+main .blog{
+    width: 100%;
+    height: auto;
+    background: #FAF9F9;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+main .blog h4{
+    color: #250F62;
+}
+main .blog h1{
+    font-size: 35px;
+    margin-top: 15px;
+}
+main .blog p{
+    margin-top: 20px;
+    color: #6c6868;
+    font-weight: bold;
+}
+main .blog .flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+main .blog .flex-container .flex-item{
+    width: 28%;
+    height: auto;
+    margin: 15px;
+    border-radius: 8px;
+    padding-bottom: 5px;
+    background: #fff;
+    box-shadow: 2px 2px 2px 2px  rgb(219, 217, 217);
+    text-align: left;
+}
+main .blog .flex-container .flex-item p{
+    font-weight: normal;
+    font-size: 15px;
+    padding: 0px 25px;
+    color: rgb(140, 139, 139);
+    line-height: 22px;
+}
+main .blog .flex-container .flex-item h5{
+    padding: 15px 25px;
+    color: #061727;
+}
+main .blog .flex-container .flex-item h3{
+    padding: 0px 25px;
+}
+main .blog .flex-container .flex-item img{
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+main .blog .flex-container .flex-item img:hover{
+    transform: scale(0.9);
+    transition: 1s ease;
+}
+main .blog .flex-container .flex-item .sub-img{
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    margin-top: 20px;
+}
+main .blog .flex-container .flex-item .sub-img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transform:none;
+    transition:none;
+}
+main .blog .flex-container .flex-item .sub-img h3{
+    font-size: 15px;
+    color: rgb(105, 110, 167);
+    padding: 0px 10px;
+  
+}
+main .blog .flex-container .flex-item .sub-img h5{
+    color: rgb(105, 110, 167);
+    font-weight: normal;
+    padding: 0px 10px;
+    margin-top: 5px;
+}
+main .last-section{
+    width: 100%;
+    height: auto;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+main .last-section .last-img{
+    width: 100%;
+    height: auto;
+}
+main .last-section .last-img img{
+    width: 100%;
+}
+main footer{
+    width: 100%;
+    height: auto;
+    background: #061727;
+    color: #fff;
+    padding-bottom: 80px;
+}
+main footer .footer-txt{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+main footer .footer-txt .footer-txt1 p{
+    font-size: 14px;
+    line-height: 23px;
+    margin-top: 18px;
+    color:#ada9a9;
+}
+main footer .footer-txt .footer-txt1 .icons{
+    margin-top: 25px;
+    color:#ada9a9;
+}
+main footer .footer-txt .footer-txt1 .icons i{
+    padding-right: 20px;
+    font-size: 12px;
+}
+main footer .footer-txt .footer-txt1 h4{
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 30px;
+    color:#ada9a9;
+}
+main footer .footer-txt .footer-txt2{
+    display: flex;
+    align-items: center;
+    color:#ada9a9;
+}
+main footer .footer-txt .footer-txt2 div{
+    margin: 65px;
+    line-height: 30px;
+}
+main footer .footer-txt .footer-txt2 h3{
+    line-height: 70px;
+}
+main footer .newsletter{
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 50px;
+    border: 1px solid #ada9a9;
+    border-radius: 5px;
+}
+main footer .footer-last-div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+main footer .newsletter .container-txt{
+    color:#ada9a9;
+}
+main footer .newsletter .container-txt h3{
+    line-height: 35px;
+}
+main footer .newsletter .button input{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 60px;
+    border-radius: 5px;
+    background:#6c6868;
+    border: none;
+    outline: none;
+}
+main footer .newsletter .button input::placeholder{
+    color: white;
+    font-weight: bold;
+}
+main footer .newsletter .button button{
+    padding: 15px 35px;
+    background: #250F62;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+main footer .scroll{
+    width: 50px;
+    height: 50px;
+    background:#250F62;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 40px;
+}
+main footer .scroll a{
+    color: white;
+}
+.headercontact{
+    flex-direction: column;
+    color: white;
+}
+.headercontact h1{
+    margin-bottom: 15px;
+}
+main .contact{
+    width: 100%;
+    height: auto;
+    background: white;
+    text-align: center;
+    padding-top: 100px;
+}
+main .contact h4{
+    color: #250F62;
+    margin-bottom: 10px;
+}
+main .contact h1{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding: 10px 50px;
+}
+main .contact p{
+    line-height: 25px;
+    color: #6c6868;
+    padding: 10px 50px;
+}
+main .contact .flex-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+main .contact .flex-container a{
+    text-decoration: none;
+    color: #000;
+    width: 25%;
+    height: auto;
+    margin: 15px;
+}
+main .contact .flex-container a .flex-content{
+    background: white;
+    padding: 30px 50px;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 2px  #250F62;
+    width: 100%;
+}
+main .contact .flex-container a .flex-content .map{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+main .contact .flex-container a .flex-content .map h5{
+    font-size: 16px;
+}
+main .contact .flex-container a .flex-content p{
+    text-wrap: nowrap;
+}
+main .contact .flex-container a .flex-content .map i{
+    font-size: 30px;
+    margin-right: 20px;
+}
+main .contact .flex-container a .flex-content .map  .whatsapp{
+    color: green;
+}
+main .sub-sec{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to right, #250F62, black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+main .sub-sec .sub-sec1{
+    width: 45%;
+    height: auto;
+    color: white;
+}
+main .sub-sec .sub-sec1 h1{
+    font-size: 25px;
+    line-height: 30px;
+}
+main .sub-sec .sub-sec1 p{
+    font-size: 13px;
+    margin-top: 15px;
+}
+main .sub-sec .sub-sec1 .flex-container{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+main .sub-sec .sub-sec1 .flex-container .sub-txt{
+    margin-left: 10px;
+    line-height: 25px;
+}
+main .sub-sec .sub-sec1 .flex-container .sub-txt h5{
+    font-weight: normal;
+    font-size: 12px;
+}
+main .sub-sec .sub-sec1 .days{
+    margin-top: 30px;
+}
+main .sub-sec .sub-sec1 .days h5{
+    line-height: 25px;
+}
+main .sub-sec .sub-sec1 .days h6{
+    margin-top: 20px;
+}
+main .sub-sec .sub-sec1 .image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .sub-sec .sub-sec1 .image img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+main .sub-sec .sub-sec2{
+    width: 40%;
+    height: auto;
+}
+main .sub-sec .sub-sec2 form{
+    background: white;
+    padding: 30px;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    /* position: relative;
+    right: 20%; */
+}
+main .sub-sec .sub-sec2 form .first-input{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+main .sub-sec .sub-sec2 form .second-input{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+main .sub-sec .sub-sec2 form input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: rgb(200, 192, 192);
+    width: 45%;
+    
+}
+main .sub-sec .sub-sec2 form input::placeholder{
+    color: black;
+    font-weight: bold;
+}
+main .sub-sec .sub-sec2 form textarea{
+    border-radius: 5px;
+    background: rgb(200, 192, 192);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+main .sub-sec .sub-sec2 form textarea::placeholder{
+    color: black;
+    font-weight: bold;
+}
+main .sub-sec .sub-sec2 form .btn-holder button{
+    padding: 12px 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background:#250F62;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* css ends here */
+
+/* mediaquery starts here */
+@media screen and (max-width:1286px){
+    main .pricing .flex-container .flex-item{
+        width: 40%;
+    }
+    main footer .footer-txt{
+        flex-wrap: wrap;
+    }
+    main footer .footer-txt .footer-txt2 div{
+        margin: 30px;
+    }
+    main .contact .flex-container a{
+        width: 35%;
+    }
+}
+@media screen and (max-width:1100px) {
+    main footer .newsletter{
+        display: flex;
+        flex-direction: column;
+    }
+    main footer .newsletter .container-txt{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width:1024px) {
+    main nav ul{
+        display: none;
+    }
+    main nav{
+        padding: 10px;
+    }
+    main nav .side-bar{
+        display: block;
+    }
+    main nav .side-bar #x{
+        display: none;
+    }
+    main header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main header .container-txt{
+       text-align: center;
+       width: 100%; 
+       padding-left: 0px;
+    }
+    main header .container-txt h1{
+        font-size: 40px;
+    }
+    main header .container-img{
+        width: 65%;
+        padding-top: 50px;
+    }
+    main .features .grid-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    main .section1 .subsec1{
+        display: flex;
+        flex-direction: column;
+    }
+    main .section1 .subsec1 .container-txt{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    main .section1 .subsec1 .container-img{
+        width: 100%;
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main .section1 .subsec1 .container-img .img-holder{
+        width: 65%;
+    }
+    main .section1 .subsec2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    main .section1 .subsec2 .container-txt{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    main .section1 .subsec2 .container-img{
+        width: 100%;
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main .section1 .subsec2 .container-img .img-holder{
+        width: 65%;
+    }
+    main .section1 .subsec3 h1{
+        padding: 10px 50px;
+        text-wrap: wrap;
+    }
+    main .section1 .subsec3 p{
+        padding: 10px 50px;
+        text-wrap: wrap;
+    }
+    main .section1 .subsec3 .rate{
+        flex-direction: column;
+        padding: 0px 0px;
+    }
+    main .section1 .subsec3 .rate div{
+        margin: 20px;
+    }
+    main .section1 .subsec3 .rate p{
+        text-wrap: nowrap;
+        margin-top: 0px;
+    }
+    main .team .flex-container .flex-item{
+        width: 80%;
+    }
+    main .blog p{
+        padding: 10px 50px;
+        text-wrap: wrap;
+    }
+    main .blog .flex-container .flex-item{
+        width: 80%;
+    }
+    main footer .footer-txt{
+        display: flex;
+        flex-direction: column;
+    }
+    main footer .footer-txt .footer-txt1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-top: 30px;
+    }
+    main footer .footer-txt .footer-txt2{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    main .contact .flex-container a{
+        width: 60%;
+    }
+    main .sub-sec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main .sub-sec .sub-sec1{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    main .sub-sec .sub-sec1 .flex-container{
+        justify-content: center;
+    }
+    main .sub-sec .sub-sec2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main .sub-sec .sub-sec2 form{
+        width: 70%;
+    }
+    main .sub-sec .sub-sec2 form input{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    main .sub-sec .sub-sec2 form textarea{
+        height: 120px;
+    }
+}    
+
+@media screen and (max-width:768px) {
+    main nav .logo h1{
+        font-size: 30px;
+    }
+    main nav .get-it button{
+        padding: 10px 20px;
+        font-size: 13px;
+        font-weight: normal;
+    }
+    main header .container-txt h1{
+        font-size: 35px;
+    }
+    main header .container-txt p{
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+        padding: 1px 20px;
+        text-wrap: wrap;
+    }
+    main .features .grid-container{
+        grid-template-columns: 1fr;
+    }
+    main .features .first-txt p{
+        padding: 10px 50px;
+        text-wrap: wrap;
+    }
+    main .features .first-txt h1{
+        padding: 10px 50px;
+        text-wrap: wrap;
+        font-size: 25px;
+    }
+    main .section1 .subsec1 .container-txt h1{
+       padding: 20px 50px;
+       text-wrap: wrap;
+    }
+    main .section1 .subsec1 .container-txt p{
+    padding: 20px 50px;
+    text-wrap: wrap;
+    }
+    main .section1 .subsec2 .container-txt h1{
+        padding: 20px 50px;
+        text-wrap: wrap;
+    }
+     main .section1 .subsec2 .container-txt p{
+     padding: 20px 50px;
+     text-wrap: wrap;
+    }
+     main .pricing p{
+        padding: 20px 50px;
+    }
+    main .pricing .flex-container .flex-item{
+        width: 90%;
+    }
+     main .pricing .flex-container .flex-item p{
+        padding: 0px 0px;
+    }
+    main .team p{
+        padding: 20px 50px;
+        text-wrap: wrap;
+    }
+    main .team .flex-container .flex-item p{
+        padding-top: 0px;
+        text-align: left;
+        padding-left: 30px;
+        text-wrap: nowrap;
+    }
+    main .section2 p{
+        padding: 5px 35px;
+    }
+    main .section3 h1{
+        font-size: 30px;
+        padding: 2px 50px;
+    }
+    main .section3 p{
+        padding: 5px 50px;
+    }
+    main .faq p{
+        padding: 5px 50px;
+    }
+    main .faq h1{
+        padding: 5px 30px;
+    }
+}
+@media screen and (max-width:650px) {
+    main footer .footer-txt .footer-txt2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    main footer .footer-txt .footer-txt2 h3{
+        font-size: 30px;
+        line-height: 80px;
+    }
+    main footer .footer-txt .footer-txt2 h5{
+        font-size: 20px;
+        line-height: 50px;
+    }
+    main footer .newsletter .button{
+        display: flex;
+        flex-direction: column;
+    }
+    main footer .newsletter .button input{
+        margin-bottom: 20px;
+    }
+    main .contact .flex-container a{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    main nav .logo h1{
+        font-size: 25px;
+    }
+    main nav .get-it{
+        display: none;
+    }
+    main nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    main header .container-txt .header-btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main header .container-txt .header-btn button{
+        padding: 12px 70px;
+        margin-bottom: 20px;
+    }
+    main header .container-txt .header-btn .apple-btn{
+        margin-right: 0px;
+    }
+    main header .container-txt p{
+        text-wrap: wrap;
+    }
+    main header .container-txt h1{
+        text-wrap: wrap;
+        font-size: 30px;
+        padding: 0px 30px;
+    }
+     main .section1 .subsec1 .container-txt h1{
+        font-size: 30px;
+    }
+    main .section1 .subsec2 .container-txt h1{
+        font-size: 30px;
+    }
+    main .section3 .section3-btn{
+        width: 100%;
+    }
+    main .section3 .section3-btn .apple-btn{
+        margin-right: 0px;
+    }
+    main .section3 .section3-btn button{
+        margin-bottom: 10px;
+        width: 50%;  
+    }
+    main .sub-sec .sub-sec1 p{
+        padding: 10px 30px;
+        text-wrap: wrap;
+    }
+}  
+@media screen and (max-width:430px) {
+    main .contact .flex-container a .flex-content{
+        font-size: 13px;
+    }
+}  
+@media screen and (max-width:380px) {
+
+     main .team h1{
+        font-size: 30px;
+    }
+    main .team .flex-container .flex-item p{
+        font-size: 12px;
+    }
+    main .team .flex-container .flex-item div h3{
+        font-size: 15px;
+    }
+    main .team .flex-container .flex-item div span i{
+        font-size: 12px;
+    }
+    main .blog h1{
+        font-size: 30px;
+    }
+    main .contact .flex-container a .flex-content .map i{
+        font-size: 20px;
+    }
+    main .contact .flex-container a .flex-content{
+        padding: 10px 20px;
+    }
+}
+@media screen and (max-width:330px) {
+    main .section3 .section3-btn button{
+        width: 70%;
+    }
+    main footer .newsletter .button button{
+        width: 80%;
+        font-size: 12px;
+        margin-left: 10%;
+    }
+    main footer .newsletter .button input{
+        width: 80%;
+        font-size: 12px;
+        margin-left: 10%;
+    }
+    main .contact .flex-container a .flex-content .map h5{
+        font-size: 13px;
+    }
+    main .contact .flex-container a .flex-content p{
+        text-wrap: wrap;
+    }
+}
